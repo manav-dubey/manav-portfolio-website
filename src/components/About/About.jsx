@@ -74,11 +74,11 @@ const About = () => {
         scale={1.05}
         transitionSpeed={1000}
         gyroscope={true}>
-          <div className="transform: scale-110 w-48 h-48 md:w-96  md:h-96  rounded-full overflow-hidden  drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]">
+          <div className="border-4 border-purple-700 transform: scale-110 w-48 h-48 md:w-96  md:h-96  rounded-full overflow-hidden  drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]">
             <img
               src={profile1}
               alt="Manav Dubey"
-              className="pointer-events-none border-4 border-purple-700 rounded-full"
+              className="pointer-events-none  rounded-full"
             />
           </div>
 
