@@ -66,23 +66,26 @@ const About = () => {
 
         {/* Right side */}
         <div className="md:w-1/2 flex sm:mb-72 lg:mb-0 justify-end p-6">
-        <Tilt
-        tiltMaxAngleX={20}
-        tiltMaxAngleY={20}
-        perspective={1000} 
-        scale={1.05}
-        transitionSpeed={1000}
-        gyroscope={true}>
-          <div className="border-4 border-purple-700 transform: scale-110 w-48 h-48 md:w-72  md:h-72 lg:w-96 lg:h-96
-            rounded-full overflow-hidden  drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)] ">
-            <img
-              src={profile1}
-              alt="Manav Dubey"
-              className="pointer-events-none  rounded-full "
-            />
-          </div>
+          <Tilt
+            tiltMaxAngleX={20}
+            tiltMaxAngleY={20}
+            perspective={1000}
+            scale={1.05}
+            transitionSpeed={1000}
+            gyroscope={true}>
+            <div className='drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]'>
+              <div className="border-4 border-purple-700 transform: scale-110 w-48 h-48 md:w-72  md:h-72 lg:w-96 lg:h-96
+                              rounded-full  overflow-hidden">
+                <img
+                  src={profile1}
+                  alt="Manav Dubey"
+                  className="pointer-events-none  rounded-full "
+                />
+              </div>
+            </div>
 
-        </Tilt>
+
+          </Tilt>
         </div>
       </div>
     </section>
