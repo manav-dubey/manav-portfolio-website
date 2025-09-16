@@ -1,5 +1,5 @@
 import React from 'react'
-import { menuItems } from '../NavBar/NavBar'
+import { menuItems } from '../Navbar/Navbar'
 import { Link } from 'react-scroll';
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube } from 'react-icons/fa';
 
