@@ -11,7 +11,6 @@ import BlurBlob from './BlurBlob'
 import Achievements from './components/Achievements/Achievements'
 
 
-
 function App() {
   
   return (
