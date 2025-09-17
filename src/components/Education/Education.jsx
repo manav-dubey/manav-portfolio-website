@@ -26,7 +26,7 @@ const Education = () => {
                 className={`flex flex-col sm:flex-row items-center mb-16 ${index % 2 !== 0 ? "sm:justify-end" : "sm:justify-start"}`}
               >
                 {/* TimeLine Circle */}
-                <div className=' sm:hidden xl:block  absolute left-0 sm:left-1/2 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 
+                <div className=' sm:hidden 3xl:block  absolute left-0 sm:left-1/2 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 
                 rounded-full flex justify-center items-center z-10'>
     
                   <img

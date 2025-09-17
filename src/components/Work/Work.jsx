@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <section
     id='work'
-    className='relative py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans'
+    className='relative py-24 pb-24 px-[12vw] md:px-[7vw] xl:[20vw] font-sans'
     >
       {/* Section Title */}
       <div className='text-center mb-16'>

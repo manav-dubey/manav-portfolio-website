@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id='about'
-      className='py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-1 md:mt-24 lg:mt-32'
+      className='py-4 px-[7vw] md:px-[7vw] xl:px-[12vw]   font-sans mt-1 md:mt-24 lg:mt-32'
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* left side */}
@@ -65,7 +65,7 @@ const About = () => {
         </div>
 
         {/* Right side */}
-        <div className="md:w-1/2 flex sm:mb-72 lg:mb-0 justify-end p-6">
+        <div className="md:w-1/2 flex  sm:mb-0 justify-end p-6">
           <Tilt
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}

@@ -41,7 +41,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw]
+        <nav className={`fixed top-0 w-full z-50 transition duration-300 px-6 lg:px-[7vw] 2xl:px-[16vw] 3xl:px-[20vw]
              ${isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-lg shadow-md" : "bg-transparent"
             }`}>
             <div className='text-white py-5 flex justify-between items-center'>
@@ -65,7 +65,7 @@ const Navbar = () => {
                                   offset={item.id === "about" ? -250 : 0}  
                                   duration={1000}
                                   onClick={() => handleMenuItemClick(item.id)}
-                                  className={`cursor-pointer hover:text-white ${activeSection === item.id ? "text-[#8245ec]" : ""}`} >
+                                  className={`md:text-xs lg:text-xl cursor-pointer hover:text-white ${activeSection === item.id ? "text-[#8245ec]" : ""}`} >
                                   
                                   {item.label}
                                 </Link>
